@@ -1,0 +1,53 @@
+.hero{
+    background-image: linear-gradient(
+    to bottom, 
+    rgba(255, 209, 64, 0.5),
+    rgba(255, 209, 64, 0.5)
+    ),
+    url(../images/home-hero.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .cen-content{
+        width: 300px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            color: white;
+
+        }
+
+        p{
+            font-style: italic;
+            color: #EE4367;
+        }
+
+        .heroC{
+            width: 484px;
+            height: 54;
+            text-align: center;
+            color: white;
+        }
+
+        .rm{
+            margin-top: 50px;
+            width: 122px;
+            height: 40px;
+            background-color: #EE4367;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+    }
+    
+}

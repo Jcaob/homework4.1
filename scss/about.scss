@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: 16px;
+  }
+
+  nav{
+      max-width: 980px;
+      height: 150px;
+      background-color: aqua;
+      margin: 0 auto;
+  }
+
+  .hero-about{
+      max-width: 980px;
+      min-height: 378px;
+      background-color: yellow;
+      margin: 0 auto;
+      position: relative;
+  }
+
+  .hero .hero-title-about{
+      position: absolute;
+      bottom: 0;
+  }
+
+  .title-i{
+      font-size: 300px;
+      line-height: 0;
+      margin-right: 70px;
+  }
+
+  .title-food{
+      font-size: 140px;
+      line-height: 0;
+  }
+
+  .history{
+      max-width: 980px;
+      min-height: 378px;
+       margin: 0px auto 0 auto; 
+      
+      /* this is for the about page  -25px*/
+  }
+
+  .history .history-title{
+      text-transform: uppercase;
+      font-size: 25px;
+      font-weight: bold;
+      border-bottom: solid 2px black;
+      padding-right: 30px;
+      padding-bottom: 2px;
+  }
+  .history p{
+      margin-top: 50px;
+  }
+
