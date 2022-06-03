@@ -1,0 +1,71 @@
+.gallery {
+  max-width: 980px;
+  height: 378px;
+  margin: 0 auto;
+}
+
+.gallery span {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: solid 2px black;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+
+.gallery-images {
+  margin-top: 50px;
+}
+
+.gallery-images div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rowOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.imageOne {
+  width: 489px;
+  height: 187px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 209, 64, 0.7)), to(rgba(255, 209, 64, 0.7))), url(../images/1.png);
+  background-image: linear-gradient(rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)), url(../images/1.png);
+}
+
+.imageTwo {
+  width: 187px;
+  height: 187px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 209, 64, 0.7)), to(rgba(255, 209, 64, 0.7))), url(../images/2.jpeg);
+  background-image: linear-gradient(rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)), url(../images/2.jpeg);
+}
+
+.imageThree {
+  width: 265px;
+  height: 187px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 209, 64, 0.7)), to(rgba(255, 209, 64, 0.7))), url(../images/3.jpg);
+  background-image: linear-gradient(rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)), url(../images/3.jpg);
+}
+
+@media (max-width: 944px) {
+  .rowOne {
+    display: block;
+  }
+
+  .rowOne div {
+    margin: 0 auto 20px auto;
+    width: 800px;
+  }
+}
+@media (max-width: 806px) {
+  .rowOne div {
+    width: 600px;
+  }
+}
